@@ -11,6 +11,19 @@ project.ext {
     isSettingDebug = false;
     isNewsDebug = false;
 
+    RELEASE_API_SERVER_URL="xxx"
+    RELEASE_API_SERVER_URL_MALL="xxx"
+    RELEASE_IM_SERVER_HOST="xxx"
+    RELEASE_IM_SERVER_PORT=5222
+    RELEASE_LEO_DEBUG=false
+
+    INSIDE_TEST_API_SERVER_URL="xxx"
+    INSIDE_TEST_API_SERVER_URL_MALL="xxx"
+    INSIDE_TEST_IM_SERVER_HOST="xxx"
+    INSIDE_TEST_IM_SERVER_PORT=5222
+    INSIDE_TEST_LEO_DEBUG=true
+
+
     //混淆
 //    minifyEnable = true
 //    shrinkResEnable = minifyEnable
